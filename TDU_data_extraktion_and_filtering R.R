@@ -114,10 +114,6 @@ df_blank_spectrum_table <- data.frame(
 )
 
 
-
-#"P:\\Marchantiaprojekt\\220918_Main_Marchantia_Experiment\\Volatiles\\05_Data_Prepared_for_R_Filtering"
-#"P:\\Marchantiaprojekt\\220918_Main_Marchantia_Experiment\\Volatiles\\04_02_Organized_TDU_Data_blanks\\agarblankD3.xlsx"
-
 #Inputfunction: function for batchprocessing, input is the folder path and blank_path
 #paths are given in "" and with \\
 #all input data has to be xlsx, first sheet containing QualityPeakTable Export from GCPostAnalysis, 
