@@ -34,6 +34,6 @@ The script does a rough data filtering, excluding peaks with a annotated compoun
 
 This script uses xlsx files. One file is used for one sample. The first sheet inhabits an annotated peak list
 
-![](/pictures/peak_input_list.png)
+![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/peak_list_input.PNG)
 
 
