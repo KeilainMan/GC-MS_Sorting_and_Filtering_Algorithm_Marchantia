@@ -6,14 +6,14 @@ This skript was used to achieve a function only. Therefor it's not the prettiest
 
 This script is a part of GC-MS data aquisition pipeline. It's purpose was determined after getting a annotated peak list and before feeding the data into GCalignR for peak alignment.  This script was written to quickly analize a greater amount of GC-MS peaklists of collected volatiles of the liverwort *Marchantia polymorpha*. Therefor the test data is a part of that dataset.
 
-## What is it for? What can it do?
+## What is it for? What it can do?
 
 The script does a rough data filtering, excluding peaks with a annotated compound probability below a certain threshold (80%) as well as compounds with an annotated biological non viable sum formula. It also filters compounds found in a given blank by retention time. The resulted list can then further be used for analysis and plotting.
 
 ## How to
 
 1. Open the script in a new RStudio-Project.
-2. Install the packages writexl and readxl and read their libraries (line 21).
+2. Install the packages writexl and readxl and read in their libraries (line 21).
 
 		install.packages("readxl")
 		install.packages("writexl")
@@ -32,8 +32,14 @@ The script does a rough data filtering, excluding peaks with a annotated compoun
 
 ## Input format
 
-This script uses xlsx files. One file is used for one sample. The first sheet inhabits an annotated peak list
+This script uses xlsx files. One file is used for one sample. The first sheet inhabits an annotated peak list:
 
 ![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/peak_list_input.PNG)
+
+The second sheet contains a spectrum search list giving about 25 search results for every peak, looking like this:
+
+![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/spectrum_search_list1.PNG)
+![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/spectrum_search_list2.PNG)
+![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/spectrum_search_list3.PNG)
 
 
