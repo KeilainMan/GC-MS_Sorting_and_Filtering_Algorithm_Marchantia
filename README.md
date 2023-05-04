@@ -1,4 +1,4 @@
-# GC-MS sortingalgorithm 
+# GC-MS Sorting and Filtering Algorithm 
 
 This skript was used to achieve a function only. Therefor it's not the prettiest one. 
 
