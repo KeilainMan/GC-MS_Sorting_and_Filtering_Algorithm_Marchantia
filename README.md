@@ -38,8 +38,8 @@ This script uses xlsx files. One file is used for one sample. The first sheet in
 
 The second sheet contains a spectrum search list giving about 25 search results for every peak, looking like this:
 
-![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/spectrum_search_list1.PNG)
-![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/spectrum_search_list2.PNG)
-![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/spectrum_search_list3.PNG)
+![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/spectrum_search_list_1.PNG)
+![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/spectrum_search_list_2.PNG)
+![](https://github.com/KeilainMan/GC-MS_Sortingalgorithm_Marchantia/blob/main/pictures/spectrum_search_list_3.PNG)
 
 
